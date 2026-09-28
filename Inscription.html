@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <img src="Images/image.png.png" alt="SehaFit" width="200" style="display: block;margin:auto;">
+    <title>Inscription</title>
+<style>
+body{
+font-family: Arial;
+background-color: lightgray;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+}
+
+.form-container{
+background: white;
+border: 1px solid black;
+padding: 30px;
+max-width: 400px;
+width: 100%;
+text-align: center;
+border-radius: 10px;
+margin: 20px auto;
+}
+
+input{
+width: 90%;
+padding: 10px;
+margin: 10px 0;
+border: 1px solid gray;
+border-radius: 5px;
+}
+
+button{
+padding: 10px 20px;
+background: black;
+color: white;
+border: none;
+cursor: pointer;
+width: 95%;
+margin-top: 15px;
+font-weight: bold;
+border-radius: 5px;
+}
+
+button:hover{
+background: dimgray;
+}
+
+.prix{
+color: green;
+font-weight: bold;
+}
+</style>  
+<link rel="stylesheet" href="style.css">  
+</head>
+<body>
+<header>
+    <h1>Inscription Complete</h1>
+</header>
+<nav>
+<a href="index.html">Accueil</a>
+<a href="abonnements.html">Abonnements</a>
+<a href="inscription.html">Inscription</a>
+<a href="experts.html">Nos Experts</a>
+<a href="programmes.html">Programmes</a>
+<a href="espace.html">Mon Espace</a>
+<a href="contact.html">Contact</a>
+<a href="paiement.html">Paiement</a>
+</nav>
+<main>
+<section>
+<h2>Formulaire final</h2>
+<form>
+<p>Nom : <input type="text" name="nom"></p>
+<p>Prenom : <input type="text" name="prenom"></p>
+<p>Tel : <input type="tel" name="tel"></p>
+<p>CNI : <input type="text" name="cni"></p>
+<p>Adresse : <input type="text" name="adresse"></p>
+
+<p>Votre objectif :</p>
+<select name="objectif">
+<option>Perte de poids (Regime)</option>
+<option>Prise de masse / Musculation</option>
+<option>Diabete</option>
+<option>Hypertension / Cholesterol</option>
+<option>Mode de vie sain</option>
+</select>
+
+<p>Preference Coach :</p>
+<label><input type="radio" name="coach" value="femme"> Femme</label>
+<label><input type="radio" name="coach" value="homme"> Homme</label>
+
+<p><button type="submit">S'inscrire</button></p>
+</form>
+</section>
+</main>
+<footer style="background:#0D0D0F; color:#888; text-align:center; padding:32px 20px; margin-top:40px; border-radius:28px 28px 0 0; width:92%; max-width:1100px; margin-left:auto; margin-right:auto;">
+<p style="color:white; font-weight:800; font-size:14px; margin-bottom:6px;">SehaFit.</p>
+<p style="font-size:12px; margin-bottom:16px;">Réalisé par Bouifraden Wassima et Ait Naisser Hajar - 2026/2027</p>
+<div style="display:flex; gap:10px; justify-content:center;">
+<a href="https://github.com/" target="_blank" style="display:inline-block; background:white; color:black; padding:10px 20px; border-radius:100px; text-decoration:none; font-weight:800; font-size:13px;">GitHub ↗</a>
+<span style="display:inline-block; background:#B6FF00; color:black; padding:10px 20px; border-radius:100px; font-weight:800; font-size:13px;">© 2026 Agadir</span>
+</div>
+</footer>
+
+</body>
+</html>
